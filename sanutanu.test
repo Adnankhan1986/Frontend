@@ -1,0 +1,309 @@
+<html lang="en">
+    <head>
+        <title>SANUTANU</title>         
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap -->
+        <link href="https://sanutanu.com/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="https://sanutanu.com/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+
+         <!-- Styles -->
+        <link href="https://sanutanu.com/styles/layouts/titan/main.css" rel="stylesheet" type="text/css">
+        <link href="https://sanutanu.com/styles/layouts/titan/responsive.css" rel="stylesheet" type="text/css">
+        
+        <link href="https://sanutanu.com/styles/elements.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,500,550,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+      
+        <link rel="stylesheet" href="https://sanutanu.com/sweatalert/sweetalert.css">
+                <script src="https://sanutanu.com/sweatalert/sweetalert.js"></script>
+
+        <!-- SCRIPTS -->
+        <script type="text/javascript">
+        var global_base_url = "https://sanutanu.com/";
+        var global_hash = "";
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+        <script src="https://sanutanu.com/scripts/libraries/jquery.form.min.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo0l7EcNxwWoTYIgE3-p3J0m5_W844_Pg&libraries=places"></script>
+        <script src="https://sanutanu.com/scripts/libraries/jquery.geocomplete.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.12/datatables.min.css"/>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.12/datatables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js "></script>
+
+        <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+
+        
+        
+        <!-- CODE INCLUDES -->
+         
+
+        <!-- Favicon: http://realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="76x76" href="https://sanutanu.com/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="https://sanutanu.com/images/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://sanutanu.com/images/favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="https://sanutanu.com/images/favicon/manifest.json">
+        <link rel="mask-icon" href="https://sanutanu.com/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+                <style type="text/css">
+           .inner-sidebar-links .active a {
+    background: #1ca1fa !important;}
+    .breadcrumb li a {
+    color: #1ca1fa !important;}
+    .btn-post {background-color: #1ca1fa !important;}
+.inner-sidebar-links .active a { background:#1ca1fa !important;}
+.paginate_button.active a {background-color: #1ca1fa !important;
+color:#1ca1fa !important;}
+.user-box-username a { color: #1ca1fa !important;}
+li.paginate_button a {
+    color: #1ca1fa !important;}
+.panel-body .form-group a {color: #1ca1fa !important;}
+.inner-sidebar-links a:hover {
+    background:#1ca1fa !important;}
+   
+      </style>
+
+    </head>
+    <body>
+
+    <nav class="navbar navbar-inverse navbar-header2">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a class="navbar-brand-two" href="https://sanutanu.com/" title="SANUTANU"><img style="width: 100%;height: 100%;" src="https://sanutanu.com/uploads/b99b46931b02b838591eb933f0d6e908.png"></a>
+                </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+                      <!-- <li><a href="#" data-target="#" onclick="load_notifications()" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="noti-menu-drop"><span class="glyphicon glyphicon-bell notification-icon"></span></a>
+        
+            <ul class="dropdown-menu" aria-labelledby="noti-menu-drop">
+            <li>
+            <div class="notification-box-title">
+            Notifications             </div>
+            <div id="notifications-scroll">
+              <div id="loading_spinner_notification">
+                <span class="glyphicon glyphicon-refresh" id="ajspinner_notification"></span>
+              </div>
+            </div>
+            <div class="notification-box-footer">
+            <a href="https://sanutanu.com/home/notifications">Read More</a>
+            </div>
+          </li>
+          </ul>
+          </li> -->
+            <li class="user_bit"><img src="https://sanutanu.com/uploads/9b0dc95b3dd8d04e8262b1b5c2ff6848.jpg" class="user_avatar"> <a href="https://sanutanu.com/user_settings">Adnan</a></li>
+            <li><a href="https://sanutanu.com/login/logout/">Logout</a></li>
+                    </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sidebar">
+                <ul class="newnav nav nav-sidebar">
+                         <li id="admin_sb">
+                <a data-toggle="collapse" data-parent="#admin_sb" href="#admin_sb_c" class="collapsed active" >
+                  <span class="glyphicon glyphicon-wrench sidebar-icon sidebar-icon-red"></span> Admin Panel                  <span class="plus-sidebar"><span class="glyphicon glyphicon-menu-down"></span></span>
+                </a>
+                <div id="admin_sb_c" class="panel-collapse collapse sidebar-links-inner in">
+                  <ul class="inner-sidebar-links">
+                                          <li class=""><a href="https://sanutanu.com/admin/settings">Global Settings</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/social_settings"> Social Settings</a></li>
+                      <li class="">
+                        <a href="https://sanutanu.com/admin/ad_settings"> Advert Settings</a>
+                      </li>
+                      <li class=""><a href="https://sanutanu.com/admin/rotation_ads"> Rotation Ads</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/plan_ads"> Ads Plan</a></li>
+                      <li class="">
+                        <a href="https://sanutanu.com/admin/promoted_posts"> 
+                          Promoted Posts                                                  </a>
+                      </li>
+                      <li class=""><a href="https://sanutanu.com/admin/globe">Countries</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/cities">cities</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/verified_requests"> Verified Requests</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/group_categories"> Group Categories</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/page_categories"> Page Categories</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/blogs"> All Blogs</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/blog_posts"> All Blog Posts</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/repoted_post"> Repoted blog postes</a></li>
+                      <li class=""><a href="https://sanutanu.com/admin/limits">Limits</a></li>
+                                                            <li class=""><a href="https://sanutanu.com/admin/members"> Manage Members</a></li>
+                    <li class=""><a href="https://sanutanu.com/admin/invites"> Invites</a></li>
+                    <li class=""><a href="https://sanutanu.com/admin/custom_fields"> Custom Fields</a></li>
+                    <li class=""><a href="https://sanutanu.com/admin/reports"> Reports</a></li>
+                    <li class=""><a href="https://sanutanu.com/admin/report_abuse_posts"> Report Abuse Posts</a></li>
+                    <li class=""><a href="https://sanutanu.com/admin/report_abuse_reasons"> Report Abuse Reasons</a></li>
+
+                    <li class=""><a href="https://sanutanu.com/admin/bugs_report"> Bugs Report</a></li>
+
+                                         <!-- contact us -->
+                                       <li class=""><a href="https://sanutanu.com/admin/contact_us_info">  Contact Us Report</a></li> <!-- contact us -->
+                                                               <li class=""><a href="https://sanutanu.com/admin/user_roles"> User Roles</a></li>
+                                                            <li class=""><a href="https://sanutanu.com/admin/user_groups"> User Groups</a></li>
+                    <li class=""><a href="https://sanutanu.com/admin/ipblock"> IP Blocking</a></li>
+
+                    <li class=""><a href="https://sanutanu.com/admin/privacy"> Privacy Policy</a></li>
+                                                              <li class=""><a href="https://sanutanu.com/admin/email_templates"> Email Templates</a></li>
+                                                              <li class=""><a href="https://sanutanu.com/admin/email_members"> Email Members</a></li>
+                                                              <li class=""><a href="https://sanutanu.com/admin/payment_settings"> Payment Settings</a></li>
+                     
+                      <li class=""><a href="https://sanutanu.com/admin/payment_logs"> Payment Logs</a></li>
+                                                                       <li class=""><a href="https://sanutanu.com/admin/religions"> Religions</a></li>
+                                                                      <li class=""><a href="https://sanutanu.com/admin/communities"> Communities</a></li>
+                                      </ul>
+                </div>
+              </li>
+                        <li class=""><a href="https://sanutanu.com/"><span class="glyphicon glyphicon-home sidebar-icon sidebar-icon-blue"></span> Overview <span class="sr-only">(current)</span></a></li>
+            <li class=""><a href="https://sanutanu.com/members"><span class="glyphicon glyphicon-user sidebar-icon sidebar-icon-green"></span> Members</a></li>
+            <li class=""><a href="https://sanutanu.com/user_settings"><span class="glyphicon glyphicon-cog sidebar-icon sidebar-icon-pink"></span> Settings</a></li>
+
+
+      
+          </ul>    </div>
+
+    <div id="main-content">
+    
+        <div id="responsive-menu-links">
+          <select name='link' OnChange="window.location.href=$(this).val();" class="form-control">
+          <option value='https://sanutanu.com/'>Overview</option>
+          <option value='https://sanutanu.com/members'>Members</option>
+          <option value='https://sanutanu.com/user_settings'>Settings</option>
+                                 <option value='https://sanutanu.com/admin/settings'>Global Settings</option>
+            <option value='https://sanutanu.com/admin/social_settings'>Social Settings</option>
+            <option value='https://sanutanu.com/admin/page_categories'>Page Categories</option>
+                                    <option value='https://sanutanu.com/admin/members'>Manage Members</option>
+            <option value='https://sanutanu.com/admin/custom_fields'>Custom Fields</option>
+            <option value='https://sanutanu.com/admin/reports'>Reports</option>
+                                    <option value='https://sanutanu.com/admin/user_roles'>User Roles</option>
+                                    <option value='https://sanutanu.com/admin/user_groups'>User Groups</option>
+            <option value='https://sanutanu.com/admin/ipblock'>IP Blocking</option>
+                                    <option value='https://sanutanu.com/admin/email_templates'>Email Templates</option>
+                                    <option value='https://sanutanu.com/admin/email_members'>Email Members</option>
+                                    <option value='https://sanutanu.com/admin/payment_settings'>Payment Settings</option>
+            <option value='https://sanutanu.com/admin/payment_plans'>Payment Plans</option>
+            <option value='https://sanutanu.com/admin/payment_logs'>Payment Logs</option>
+            <option value='https://sanutanu.com/admin/premium_users'>Premium Users</option>
+                                <option value='https://sanutanu.com/test'>Full Page</option>
+                    <option value='https://sanutanu.com/funds'>Add Funds</option>
+          <option value='https://sanutanu.com/funds/plans'>Premium Plans</option>
+                    <option value='https://sanutanu.com/test/restricted_admin'>Admin Page</option>
+          <option value='https://sanutanu.com/test/restricted_group'>Group Page</option>
+          <option value='https://sanutanu.com/test/restricted_user'>User Page</option>
+          <option value='https://sanutanu.com/test/restricted_premium'>Premium Page</option>
+          </select> 
+</div>
+                      
+        <div class="white-area-content">
+<div class="db-header clearfix">
+    <div class="page-header-title"> <span class="glyphicon glyphicon-user"></span> Admin Panel</div>
+    <div class="db-header-extra"> 
+</div>
+</div>
+
+<ol class="breadcrumb">
+  <li><a href="https://sanutanu.com/">Home</a></li>
+  <li class="active">Admin Panel</li>
+</ol>
+
+<p>The Admin Panel allows you to update and customise your site. Check out the useful links in the sidebar.</p>
+
+<hr>
+</div>
+    </div>
+    <div id="footer" class="clearfix">
+      <span class="pull-left">Made By <a href="https://hybreathe.com/"> HYBREATHE </a> SANUTANU V1.00</span> <span class="pull-right"><a href="https://sanutanu.com/home/change_language">Change Language</a></span>
+    </div>
+
+    <!-- SCRIPTS -->
+     <script src="https://sanutanu.com/scripts/custom/global.js"></script>
+    <script src="https://sanutanu.com/scripts/libraries/jquery.nicescroll.min.js"></script>
+    <script src="https://sanutanu.com/scripts/libraries/mention/jquery.mentions.js"></script> <!-- @mentions and #hastags -->
+        <script src="https://sanutanu.com/scripts/libraries/select2.full.min.js"></script>
+    <script type="text/javascript">
+      $.widget.bridge('uitooltip', $.ui.tooltip);
+    </script>
+    
+    <script src="https://sanutanu.com/bootstrap/js/bootstrap.min.js"></script>
+
+     <script type="text/javascript">
+
+      // Modal fix for ckeditor
+      $.fn.modal.Constructor.prototype.enforceFocus = function () {
+        var $modalElement = this.$element;
+        $(document).on('focusin.modal', function (e) {
+            var $parent = $(e.target.parentNode);
+            if ($modalElement[0] !== e.target && !$modalElement.has(e.target).length
+                // add whatever conditions you need here:
+                &&
+                !$parent.hasClass('cke_dialog_ui_input_select') && !$parent.hasClass('cke_dialog_ui_input_text')) {
+                $modalElement.focus()
+            }
+        })
+    };
+
+            $(document).ready(function() {
+              $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+    <script type="text/javascript">
+     $(document).ready(function() {
+
+        // Get sidebar height
+       resize_layout();
+
+         var sb_h = $('.sidebar').height();
+        var mc_h = $('#main-content').height();
+        if(sb_h > mc_h) {
+          $('#main-content').css("min-height", sb_h+50 + "px");
+        }
+
+        $('.nav-sidebar li').on('shown.bs.collapse', function () {
+           $(this).find(".glyphicon-menu-right")
+                 .removeClass("glyphicon-menu-right")
+                 .addClass("glyphicon-menu-down");
+            resize_layout();
+        });
+        $('.nav-sidebar li').on('hidden.bs.collapse', function () {
+           $(this).find(".glyphicon-menu-down")
+                 .removeClass("glyphicon-menu-down")
+                 .addClass("glyphicon-menu-right");
+            resize_layout();
+        });
+
+        function resize_layout() 
+        {
+          var sb_h = $('.sidebar').height();
+          var mc_h = $('#main-content').height();
+          var w_h = $(window).height();
+          if(sb_h > mc_h) {
+            $('#main-content').css("min-height", sb_h+50 + "px");
+          }
+          if(w_h > mc_h) {
+            $('#main-content').css("min-height", (w_h-(51+30)) +"px");
+          }
+        }
+     });
+    </script>
+    </body>
+</html>
